@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mount AI Assistant</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===============================
+         YOUR WEBSITE CONTENT
+    ================================ -->
+
+    <header class="header">
+        <h1>Welcome to The Mount Continuing Care Community</h1>
+        <p>How can we help you today?</p>
+    </header>
+
+    <!-- ===============================
+         CHAT BUTTON
+    ================================ -->
+
+    <button id="chatButton" class="chat-button">
+        💬
+    </button>
+
+    <!-- ===============================
+         CHAT WINDOW
+    ================================ -->
+
+    <div id="chatWindow" class="chat-window">
+
+        <!-- Header -->
+        <div class="chat-header">
+
+            <div class="header-left">
+
+                <div class="bot-avatar">
+                    🤖
+                </div>
+
+                <div>
+                    <h3>The Mount Assistant</h3>
+                    <span class="status">
+                        ● Online
+                    </span>
+                </div>
+
+            </div>
+
+            <button id="closeChat" class="close-btn">
+                ✖
+            </button>
+
+        </div>
+
+        <!-- Chat Messages -->
+
+        <div id="chatMessages" class="chat-messages">
+
+            <div class="bot-message">
+
+                <div class="message">
+
+                    Hello 👋
+
+                    <br><br>
+
+                    Welcome to The Mount Continuing Care Community.
+
+                    <br><br>
+
+                    I'm here to answer your questions.
+
+                    <br><br>
+
+                    Try asking:
+
+                    <ul>
+                        <li>What are your visiting hours?</li>
+                        <li>Do you have private rooms?</li>
+                        <li>How do I apply for a job?</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Typing Indicator -->
+
+        <div id="typingIndicator" class="typing">
+
+            Assistant is typing...
+
+        </div>
+
+        <!-- Input Area -->
+
+        <div class="chat-input">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Type your question..."
+                autocomplete="off"
+            >
+
+            <button id="sendButton">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
