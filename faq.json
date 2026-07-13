@@ -1,1 +1,14 @@
-
+[
+  {
+    "question": "What are your visiting hours?",
+    "answer": "Our visiting hours are from 9:00 AM to 8:00 PM every day."
+  },
+  {
+    "question": "Do you have private rooms?",
+    "answer": "Yes. Private rooms are available depending on availability."
+  },
+  {
+    "question": "How do I apply for a job?",
+    "answer": "Please visit our Careers page to apply online."
+  }
+]
